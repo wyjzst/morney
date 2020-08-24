@@ -11,13 +11,18 @@
 </template>
 
 <style scoped lang="scss">
-  ::v-deep .type-tabs-item {
-    background: white;
-    &.selected {
-      background: #C4C4C4;
-      &::after {
-        display: none;
+  ::v-deep {
+    .type-tabs-item {
+      background: white;
+      &.selected {
+        background: #C4C4C4;
+        &::after {
+          display: none;
+        }
       }
+    }
+    .interval-tabs-item {
+      /*height: 48px;*/
     }
   }
 </style>
